@@ -14,11 +14,11 @@ Taxi::Taxi(int Tno, const char Ttype[])
 	
 }
 
-void Taxi::setTaxino(int Tno)
+void Taxi::setTaxino()
 {
 }
 
-void Taxi::setTaxitype(const char Ttype[])
+void Taxi::setTaxitype()
 {
 }
 
