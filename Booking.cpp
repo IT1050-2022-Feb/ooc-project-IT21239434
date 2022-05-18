@@ -1,7 +1,7 @@
 #include "Booking.h"
-/*#include"RegisteredUser.h"
+#include"RegisteredUser.h"
 #include"Taxi.h"
-#include"Offer.h"*/
+#include"Offer.h"
 #include<iostream>
 using namespace std;
 #include<cstring>
