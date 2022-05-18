@@ -37,3 +37,11 @@ void Payment::checkpayment()
 void Payment::confirmpayment()
 {
 }
+
+void Payment::displaypayment()
+{
+}
+
+Payment::~Payment()    //implimentation of the destructors
+{
+}
