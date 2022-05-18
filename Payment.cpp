@@ -18,15 +18,15 @@ Payment::Payment(int Pid, const char CPaytype[], double Pamount)
 }
 
     //implimentation of the methods
-void Payment::setpayid(int Pid)
+void Payment::setpayid()
 {
 }
 
-void Payment::setPaytype(const char CPtype[])
+void Payment::setPaytype()
 {
 }
 
-void Payment::setAmount(double Pamount)
+void Payment::setAmount()
 {
 }
 
