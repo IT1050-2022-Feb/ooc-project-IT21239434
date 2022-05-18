@@ -17,11 +17,11 @@ RegisteredUser::RegisteredUser(const char Uname[], const char Upw[], int cid, co
 }
 
 //setters
-void RegisteredUser::setUsername(const char Uname[])
+void RegisteredUser::setUsername()
 {
 }
 
-void RegisteredUser::setpassword(const char Upw[])
+void RegisteredUser::setpassword()
 {
 }
 
