@@ -11,8 +11,8 @@ class Taxi
 	
 		Taxi();
 		Taxi(int Tno, const char Ttype[]);
-		void setTaxino();
-		void setTaxitype();
+		void setTaxino(int Tno);
+		void setTaxitype(const char Ttype[]);
 		void addtaxiInformation();
 		void deletetaxiInformation();
 		void displaytaxi();
