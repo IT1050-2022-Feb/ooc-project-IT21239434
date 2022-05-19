@@ -7,8 +7,8 @@ class RegisteredUser : public UnregisteredUser
 	public:
 		RegisteredUser();
 		RegisteredUser(const char Uname[], const char Upw[], int cid, const char cname[], const char caddress[], const char cmail[], int ctel);
-		void setUsername();
-		void setpassword();
+		void setUsername(const char Uname[]);
+		void setpassword(const char Upw[]);
 		void login();
 		void checkPassword();
 		void passwordvalidation();
