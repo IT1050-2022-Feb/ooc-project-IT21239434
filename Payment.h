@@ -7,9 +7,9 @@ class Payment
 	public:        // Define Methods
 		Payment();
 		Payment(int Pid, const char CPaytype[], double Pamount);
-		void setpayid();
-		void setPaytype();
-		void setAmount();
+		void setpayid(int Pid);
+		void setPaytype(const char CPaytype[]);
+		void setAmount(double Pamount);
 		void checkpayment();
 		void confirmpayment();
 		void displaypayment();
