@@ -21,11 +21,11 @@ class Booking
 	public:
 		Booking();
 		Booking(const char Bid[], const char Bstart[], const char Bend[], const             char Bdate[], const char Btime[]);
-		void setbookingid();
-		void setStartplace();
-		void setEndplace();
-		void setDate();
-		void setTime();
+		void setbookingid(const char Bid[]);
+		void setStartplace(const char Bstart[]);
+		void setEndplace(const char Bend[]);
+		void setDate(const char Bdate[]);
+		void setTime(const char Btime[]);
 		void Addtaxi();
 		void addbookingdetails();
 		void cancelbookingdetails();

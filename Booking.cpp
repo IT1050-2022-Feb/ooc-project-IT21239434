@@ -26,23 +26,23 @@ Booking::Booking(const char Bid[], const char Bstart[], const char Bend[], const
 	Registered->addBooking();
 }
 //setters
-void Booking::setbookingid()
+void Booking::setbookingid(const char Bid[])
 {
 }
 
-void Booking::setStartplace()
+void Booking::setStartplace(const char Bstart[])
 {
 }
 
-void Booking::setEndplace()
+void Booking::setEndplace(const char Bend[])
 {
 }
 
-void Booking::setDate()
+void Booking::setDate(const char Bdate[])
 {
 }
 
-void Booking::setTime()
+void Booking::setTime(const char Btime[])
 {
 }
 
