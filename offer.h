@@ -12,7 +12,7 @@ public:
 	void setofferif(const char Oid[]);
 	void setofferdescription(const char Odesc[]);
 	void addoffer();
-	void addpayment(Payment* p1, Payment*p2, Payment* p3);
+	void addpayment();
 	void updateoffer();
 	void deleteoffer();
 	void displayoffer();
