@@ -35,4 +35,12 @@ int main()
 
 	p1->checkpayment();
 	p1->displaypayment();
+
+  //delete objects
+  delete Unreg1;
+  delete reg1;
+  delete book1;
+  delete t1;
+  delete o1;
+  delete p1;
 };
